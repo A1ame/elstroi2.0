@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Activitar Template">
+    <meta name="keywords" content="Activitar, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Блок Фундаментный полнотелый 390х190х188 в Москве|Элстрой</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    
+    <style>
+        .removeColor {
+  cursor: pointer;
+  font-size: 40px; /* Увеличиваем размер крестика */
+  margin-left: 10px;
+  color: red;
+}
+
+        #orderModal {
+    display: none; /* По умолчанию скрыто */
+    position: fixed; /* Фиксированное положение */
+    z-index: 1000; /* Выше других элементов */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Добавление прокрутки, если содержимое выходит за пределы окна */
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+    opacity: 1; /* Прозрачность */
+    transition: opacity 0.3s ease; /* Плавное изменение прозрачности */
+  }
+        .modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  position: relative; /* Добавлено для абсолютного позиционирования */
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+        .button3 {
+            background-color: orange;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 10px; /* Закругляем углы */
+            cursor: pointer;
+            animation: fadeIn 0.5s; /* Анимация при появлении */
+        }
+    
+        .button3:hover {
+            background-color: darkorange;
+        }
+        .button4 {
+            
+            background-color: orange;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px; /* Закругляем углы */
+            cursor: pointer;
+            animation: fadeIn 0.5s; /* Анимация при появлении */
+        }
+    
+        .button4:hover {
+            background-color: darkorange;
+        }
+        
+    
+        /* Стилизуем раскрываемую шторку */
+        #characteristics {
+            overflow: hidden;
+            max-height: 345px; /* Показываем только первые три строки */
+            transition: max-height 0.3s ease;
+        }
+    
+        #characteristics.expanded {
+            max-height: 1200px; /* Высота блока при полном отображении */
+        }
+    
+        /* Анимация открывания и закрывания */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    
+        @keyframes fadeOut {
+            from { opacity: 1; }
+            to { opacity: 0; }
+        }
+    
+        /* Стилизуем кнопку */
+        
+        button {
+            background-color: orange;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px; /* Закругляем углы */
+            cursor: pointer;
+            animation: fadeIn 0.5s; /* Анимация при появлении */
+        }
+    
+        button:hover {
+            background-color: darkorange;
+        }
+        
+    </style>
+</head>
+
+<body>
+    
+
+    <!-- Header Section Begin -->
+    <header class="header-section header-normal">
+        <div class="container-fluid">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="img/logo2.png" alt="">
+                </a>
+            </div>
+            <div class="top-social">
+                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa fa-youtube-play"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="container">
+                <div class="nav-menu">
+                    <nav class="mainmenu mobile-menu">
+                        <ul>
+                            <li><a href="./index.html">Главная</a></li>
+                            <li><a href="./about-us.html">О нас</a></li>
+                            <li><a href="./gallery.html">Наши работы</a></li>
+                            <li><a href="./blog.html">Услуги</a>
+                            <li class="active" ><a href="./blog2.html">Материалы</a>
+                            <li><a href="./contact.html">Контакты</a></li>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+
+    <section class="breadcrumb-section set-bg spad" data-setbg="img/about-bread1.png">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <h2>Материалы</h2>
+                        <div class="breadcrumb-controls">
+                            <a href="index.html"><i class="fa fa-home"></i> Главная</a>
+                            <a href="blog2.html"><i ></i> Материалы</a>
+                            <a href="blog2.8.html"><i></i>Строительные блоки</a>
+                            <span>Блок Фундаментный полнотелый 390х190х188</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Breadcrumb Section Begin -->
+   
+    <!-- Blog Single Section Begin -->
+    <section class="blog-single-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="blog-single-text">
+                        
+                        <div class="blog-pic">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="">
+                                        <img src="img/material/xar/n56.png" alt="">
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="">
+                                        <img src="img/material/cen/plit48.png" >
+                                       
+                                    </div>
+                                </div>                          
+                            </div>
+                        </div>
+                        <a class="button4" id="openOrderForm" style="color: white;">ЗАКАЗАТЬ</a>
+                        <p></p>
+                        <p>*После заказа, мы с вами свяжемся по вашим данным и обсудим дальнейшие действия</p>
+                        
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="d840b554-902b-4b8f-9589-c565a8cc2c5e">
+<div id="orderModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Оформление заказа</h2>
+    <form id="orderForm">
+      <label for="fullName">ФИО:</label>
+      <input type="text" id="fullName" name="fullName" required>
+      
+      <label for="phoneNumber">Номер телефона:</label>
+      <input type="text" id="phoneNumber" name="phoneNumber" placeholder="+7 (___) ___-__-__" required>
+      
+      <label for="address">Адрес:</label> 
+      <input type="text" id="address" name="address" required>
+      
+      <div id="colorSelection">
+        <div class="colorOption">
+          <label class="button2" for="blockColor">Цвет блока:</label>
+          <select class="color" name="blockColor">
+            <option value="red">Серый</option>
+            <option value="blue">Красный</option>
+            <option value="green">Коричнеый</option>
+            <option value="green">Абрикосовый</option>
+            <option value="green">Зелёный</option>
+            <option value="green">Черный</option>
+            <option value="green">Желтый</option>
+            <option value="green">Белый</option>
+            <option value="green">Оранжевый</option>
+          </select>
+          <label for="quantity">Количество:</label>
+          <input type="number" class="quantity" name="quantity" min="1" required>
+          <span class="removeColor" style="display: none;">&times;</span>
+        </div>
+      </div>
+      <a class="button3" id="addColor" style="color: white;">Добавить еще цвет</a>
+      
+      <input class="button3" type="submit" value="Отправить заказ">
+      
+    </form>
+  </div>
+</div>
+</form>
+
+
+                        
+                        
+                       
+                        
+                    </div>
+                </div>
+               
+                <div class="col-lg-4">
+                    <div class="blog-single-sidebar">
+                        <div class="bs-latest-news">
+                            <h4>Характеристика:</h4>
+                            <div id="characteristics">
+                                <a  class="bl-item set-bg" >
+                                    <h5>Длина/ширина/высота изделия, мм - 390х190х188</h5>
+                                </a>
+                                <a class="bl-item set-bg">
+                                    <h5>Из какого материала - Бетон</h5>
+                                </a>
+                                <a class="bl-item set-bg">
+                                    <h5>Вес 1 изделия, кг - 32</h5>
+                                </a>
+                                <a class="bl-item set-bg">
+                                    <h5>Морозоупорность, циклов - Мрз 50 циклов</h5>
+                                </a>
+                                <a class="bl-item set-bg">
+                                    <h5>Габариты поддона, мм - 1200x600</h5>
+                                </a>
+                                <a class="bl-item set-bg">
+                                    <h5>Вес наполненной упаковки, кг - 1920</h5>
+                                </a>
+                                <a  class="bl-item set-bg" >
+                                    <h5>Сколько шт. на поддоне - 60</h5>
+                                </a>
+                                <a class="bl-item set-bg" >
+                                    <h5>Страна происхождения товара - Россия</h5>
+                                </a>
+                                <a  class="bl-item set-bg" >
+                                    <h5>Класс бетона - В22,5</h5>
+                                </a>
+                                <a class="bl-item set-bg">
+                                    <h5>Срок службы - Не меньше 20 лет</h5>
+                                </a>
+                                <a  class="bl-item set-bg" >
+                                    <h5>Марка прочности - М100 кг/см²</h5>
+                                </a>
+                                <a  class="bl-item set-bg" >
+                                    <h5>Предназначение - Строительство стен</h5>
+                                </a>
+                                <a  class="bl-item set-bg" >
+                                    <h5>Цветовая палитра - Серый</h5>
+                                </a>
+                                <a  class="bl-item set-bg" >
+                                    <h5>Модель - Блок Фундаментный полнотелый</h5>
+                                </a>
+                                <a  class="bl-item set-bg" >
+                                    <h5>Где используется - Наружные работы</h5>
+                                </a>
+                               
+
+
+                            </div>
+                            <button onclick="showMoreCharacteristics()">Показать еще</button>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="recent-news">
+                    <h4>Примеры</h4>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="recent-item set-bg" data-setbg="img/material/nar/blok4.jpg">
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="recent-item set-bg" data-setbg="img/material/nar/blok5.jpg">
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="recent-item set-bg" data-setbg="img/material/nar/blok6.jpg">
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+           
+            
+                
+            
+            
+               
+                
+            </div>
+        </div>
+    </section>
+    <!-- Blog Single Section End -->
+
+    <!-- Cta Section Begin -->
+   
+    <!-- Cta Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer-logo-item">
+                        <div class="f-logo">
+                            <a href="#"><img src="img/logo2.png" alt=""></a>
+                        </div>
+                        <p>Работаем по договору. Бесплатный замер при заключении договора. Гарантия приживаемости.</p>
+                        <div class="social-links">
+                            
+                        </div>
+                    </div>
+                </div>
+              
+                
+                <div class="col-lg-3">
+                    <div class="footer-widget">
+                        <h5>Информация</h5>
+                        <ul class="footer-info">
+                            <span>
+                                <li><i  class="fa fa-phone"></i><a href="tel: 89096408333" >Телефон</li></a>
+                                </span>
+                                <span>
+                                    <li><i  class="fa fa-envelope"></i><a href="mailto:arpineg526@gmail.com" >Электронная почта </li></a>
+                                    </span>
+                            <li>
+                                <i class="fa fa-map-marker"></i>
+                                <span>Адресс</span>
+                                Московская область, Ленинский район, город Видное, улица Белокаменное шоссе, 1к1
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-widget">
+                        <h5>Навигация</h5>
+                        <ul class="footer-info">
+                            <span>
+                                <li><i  class="fa fa-angle-right"></i><a class="button3" href="index.html" >Главная</li></a>
+                                </span>
+                                <span>
+                                    <li><i  class="fa fa-angle-right"></i><a class="button3" href="about-us.html" >О нас </li></a>
+                                    </span>
+                                    <span>
+                                        <li><i  class="fa fa-angle-right"></i><a class="button3" href="gallery.html" >Примеры </li></a>
+                                        </span>
+                                        <span>
+                                            <li><i  class="fa fa-angle-right"></i><a class="button3" href="blog.html" >Услуги </li></a>
+                                            </span>
+                                            <span>
+                                                <li><i  class="fa fa-angle-right"></i><a class="button3" href="blog2.html" >Материалы </li></a>
+                                                </span>
+                                                <span>
+                                                    <li><i  class="fa fa-angle-right"></i><a  class="button3" href="contact.html" >Контакты </li></a>
+                                                    </span>                   
+                           
+                        
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-widget">
+                            <h5>Наши услуги</h5>
+                            <ul class="footer-info">
+                                <span>
+                                    <li><i  class="fa fa-angle-right"></i><a class="button3" href="usluga-ukladlabrushatki.html" >Укладка брусчатки </li></a>
+                                    </span>
+                                    <li><i  class="fa fa-angle-right"></i><a class="button3" href="usluga-ozelenenie.html" >Озеленение</li></a>
+                                    </span>
+                                    <li><i  class="fa fa-angle-right"></i><a class="button3" href="usluga-asvalt.html" >Укладка асфальта</li></a>
+                                    </span>
+                                    <li><i  class="fa fa-angle-right"></i><a class="button3" href="usluga-kovka.html" >Ковка</li></a>
+                                    </span>
+                                   
+                                   
+                                   
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="copyright-text">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <div class="ct-inside"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+     &copy;<script>document.write(new Date().getFullYear());</script> Все права защищены | Сделано с  <i class="fa fa-heart-o" aria-hidden="true"></i> от <a href="https://www.codewars.com/users/A1ame" target="_blank">Arame</a>
+    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+    <script>
+        function showMoreCharacteristics() {
+            var characteristicsDiv = document.getElementById("characteristics");
+            var button = document.querySelector("button");
+            if (characteristicsDiv.classList.contains("expanded")) {
+                characteristicsDiv.classList.remove("expanded");
+                button.textContent = "Показать еще";
+                button.style.animation = "fadeOut 0.5s"; /* Анимация при закрытии */
+            } else {
+                characteristicsDiv.classList.add("expanded");
+                button.textContent = "Скрыть";
+                button.style.animation = "fadeIn 0.5s"; /* Анимация при открытии */
+            }
+        }
+        document.addEventListener("DOMContentLoaded", function() {
+    var scrollToCommentBtn = document.getElementById('scrollToComment');
+    var commentForm = document.getElementById('commentForm');
+
+    scrollToCommentBtn.addEventListener('click', function(event) {
+        event.preventDefault(); // Отменяем стандартное действие ссылки
+        commentForm.scrollIntoView({ behavior: 'smooth' }); // Прокручиваем к форме комментария с плавной анимацией
+    });
+});
+
+    </script>
+    <script>
+        
+       document.getElementById("openOrderForm").addEventListener("click", function() {
+  document.getElementById("orderModal").style.display = "block";
+});
+
+document.getElementsByClassName("close")[0].addEventListener("click", function() {
+  document.getElementById("orderModal").style.display = "none";
+});
+
+window.onclick = function(event) {
+  var modal = document.getElementById("orderModal");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
+
+document.getElementById("phoneNumber").addEventListener("input", function(event) {
+  var phoneNumberInput = this.value.replace(/\D/g, ''); // Убираем все нецифровые символы
+
+  // Ограничиваем количество цифр до 10
+  phoneNumberInput = phoneNumberInput.substring(0, 11);
+
+  // Добавляем "+7" только если его еще нет в начале
+  if (!phoneNumberInput.startsWith('7')) {
+    phoneNumberInput = '7' + phoneNumberInput;
+  }
+
+  var formattedPhoneNumber = '+7';
+
+  // Форматируем оставшуюся часть номера телефона
+  for (var i = 1; i < phoneNumberInput.length; i++) {
+    // Добавляем скобки и тире в зависимости от позиции введенных цифр
+    if (i === 1) {
+      formattedPhoneNumber += '(' + phoneNumberInput.charAt(i);
+    } else if (i === 4) {
+      formattedPhoneNumber += ') ' + phoneNumberInput.charAt(i);
+    } else if (i === 6) {
+      formattedPhoneNumber += phoneNumberInput.charAt(i) + '-';
+    } else if (i === 8 || i === 11) {
+      formattedPhoneNumber += phoneNumberInput.charAt(i) + '-';
+    } else {
+      formattedPhoneNumber += phoneNumberInput.charAt(i);
+    }
+  }
+
+  // Устанавливаем отформатированное значение обратно в поле ввода
+  this.value = formattedPhoneNumber;
+});
+
+
+
+
+
+
+
+
+var addColorButtons = document.querySelectorAll("#addColor");
+
+// Скрываем крестик для первого цвета
+document.querySelector("#colorSelection .removeColor").style.display = "none";
+
+// Перебираем все кнопки "Добавить еще цвет"
+addColorButtons.forEach(function(button, index) {
+  // Для каждой кнопки добавляем обработчик события нажатия
+  button.addEventListener("click", function(event) {
+    // Клонируем первый блок выбора цвета
+    var colorOption = document.querySelector("#colorSelection .colorOption").cloneNode(true);
+
+    // Отображаем крестик для нового блока выбора цвета
+    colorOption.querySelector(".removeColor").style.display = "inline";
+
+    // Вставляем новый блок выбора цвета перед кнопкой "Добавить еще цвет"
+    this.parentNode.insertBefore(colorOption, this);
+
+    // Сбрасываем значение цвета и количества в новом блоке
+    colorOption.querySelector("select.color").value = "red";
+    colorOption.querySelector("input.quantity").value = "";
+  });
+});
+
+// Обработчик события клика для удаления блока выбора цвета
+document.addEventListener("click", function(event) {
+  if (event.target.classList.contains("removeColor")) {
+    event.target.parentNode.remove();
+  }
+});
+
+document.getElementById("orderForm").addEventListener("submit", function(event) {
+  event.preventDefault();
+  // Добавьте здесь логику для обработки отправки заказа
+  // Например, сбор данных из формы и отправка на сервер
+  alert("Заказ отправлен!");
+  document.getElementById("orderModal").style.display = "none";
+});
+
+
+    </script>
+    
+    
+
+    
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
